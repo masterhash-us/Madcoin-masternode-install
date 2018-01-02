@@ -1,0 +1,1 @@
+# Madcoin-masternode-install
