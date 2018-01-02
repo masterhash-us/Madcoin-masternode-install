@@ -16,6 +16,8 @@ echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo && echo && echo
 sleep 3
 
+sudo apt-get install systemd -y
+
 # Check for systemd
 systemctl --version >/dev/null 2>&1 || { echo "systemd is required. Are you using Ubuntu 16.04?"  >&2; exit 1; }
 
