@@ -122,7 +122,7 @@ fi
 # Download Madcoin
 echo && echo "Downloading Madcoin..."
 sleep 3
-wget https://github.com/masterhash-us/Madcoin-masternode-install/blob/master/madcoin.tar
+wget https://github.com/masterhash-us/Madcoin-masternode-install/releases/download/1/madcoin.tar
 tar -xvf madcoin.tar
 rm madcoin.tar
 
